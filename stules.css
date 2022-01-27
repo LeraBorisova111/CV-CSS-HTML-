@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Roboto&display=swap');
+
+body {
+    background-color: #edd85c3d;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Roboto', sans-serif; 
+   
+}
+
+a {
+    color: rgb(17, 19, 19);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 3px 3px #E0FFFF, -1em 0 0.4em #E0FFFF;
+
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #1e454d;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bg-blue {
+    background: rgb(233, 233, 255);
+}
+
+.bg-new {
+    background: #FFE4E1;
+}
+
+.bg-yellow {
+    background: #FFF0F5;
+}
+
+.bg-green {
+    background: lavender;
+}
+
+
+.card {
+    padding: 15px 20px; 
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.icons-block-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.whats-icon {
+    margin-right: 8px;
+}
+
+.telegram-icon {
+    margin-left: 8px;
+}
+
+.flex {
+    display: flex;
+    margin-left: 8px;
+}
